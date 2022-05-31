@@ -2,11 +2,9 @@
  - name: test
    hosts: localhost
    connection: local
+   vars:
+    username: arpit
    vars_prompt:
-
-     - name: username
-       prompt: What is your username?
-       private: no
 
      - name: password
        prompt: What is your password?
